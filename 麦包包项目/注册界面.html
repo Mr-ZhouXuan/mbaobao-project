@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>麦包包注册界面</title>
+		<style type="text/css">
+			body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, img, dl, dt, dd, table, th, td, fieldset, div, strong, em {
+			    margin: 0;
+			    padding: 0;
+			    border: 0;
+			}
+			body{
+				color: #333;
+				font-family: Arial, Helvetica, sans-serif;
+				font: 12px/1.5 tahoma,verdana,arial,helvetica,sans-serif,"宋体";
+			}
+			li{
+				list-style: none;
+			}
+			a{
+				color: #666;
+				text-decoration: none;
+				cursor: pointer;
+			}
+		</style>
+		<script src="js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<!--头部顶部部分-->
+		<link rel="stylesheet" type="text/css" href="css/top.css"/>
+		<link rel="stylesheet" type="text/css" href="css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="css/mulu.css"/>
+		<link rel="stylesheet" type="text/css" href="css/注册界面.css"/>
+		<script src="js/alljs.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/注册界面.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="g-top">
+			<div class="g-top-wrap">
+				<dl class="user-panel-left">
+					<dd class="login-info">
+						您好，欢迎来到麦包包！ 【  
+						<a href="#" class="top-login">登录</a>
+						|
+						<a href="#" class="top-regiter"> 注册</a>
+						 】
+					</dd>
+				</dl>
+				
+				<dl class="user-panel">
+					<dd class="my-order">
+		                <a >我的订单</a>
+		            </dd>
+					<dd class="my-cart">
+						<div class="min-cart">
+							<div class="min-cart-btn">
+								<i></i><!--购物车图标-->
+								<a >购物车</a>
+								<div class="cart-count"><!--计数-->
+		                            <span class="cart-count-wrap">
+		                                <em id="js-total-num">
+		                                    0
+		                                </em>
+		                            </span>
+		                        </div>
+								<b class="arrow"></b><!--尖角符号-->
+							</div>
+							<div class="cart-list">
+								<p class="min-cart-empty">您的购物车中没有商品，先去选购吧！</p>
+							</div>
+						</div>
+					</dd>
+					
+					<dd class="t-dropdown">
+						<div class="t-dropdown-box">
+							<span class="t-menu">
+								网站导航
+								<i class="arrow"></i>
+		                    </span>
+		                    <div class="t-d-menu"><!--下拉目录[移入时显示]-->
+		                    	<dl>
+		                            <dt>热门</dt>
+		                            <dd>
+		                                <a   >
+		                                	<font color="red">周二上新</font>
+		                                </a>
+		                                <a   >爆款推荐</a>
+		                                <a   >选包中心</a>
+		                            </dd>
+		                        </dl>
+		                        <dl>
+		                            <dt>购物</dt>
+		                            <dd>
+		                                <a   >女包馆</a>
+		                                <a   >男包馆</a>
+		                                <a   >运动旅行</a>
+		                            </dd>
+		                        </dl>
+		                        <dl>
+		                            <dt>服务</dt>
+		                            <dd>
+		                                <a   >新手帮助</a>
+		                                <a   >帮助中心</a>
+		                                <a   >
+		                                	<font color="red">麦豆说明</font>
+		                                </a>
+		                                <a   >
+		                                	<font color="red">企业团购</font>
+		                                </a>
+		                            </dd>
+		                        </dl>
+		                        <div class="top-serve-tel">
+		                            <p>服务热线：4006-526-528</p>
+		                        </div>
+		                    </div>
+						</div>
+					</dd>
+				</dl>
+			</div>
+		</div>
+		
+		<div class="g-header">
+			<div class="g-header-wrap">
+				<div class="logo">
+					<a >
+						<img src="img/myimg/logo.png"/>
+					</a>
+				</div>
+				<div class="header-nsearch">
+					<div class="search-input-wrap">
+	                    <input class="search-input" name="key" placeholder="搜索“双肩包”试试~" type="text">
+	                </div>
+	                <input value="搜索" class="search-btn" type="submit">
+	                <div class="hot-keys">
+	                	<span class="s-item">
+	                		<a  class="hot"> 潮流双肩包  </a>|
+	                	</span>
+	                	<span class="s-item">
+	                		<a "> 热销爆款 </a>|
+	                	</span>
+	                	<span class="s-item">
+	                		<a  class="hot"> 品质真皮  </a>|
+	                	</span>
+	                	<span class="s-item">
+	                		<a > 绅士公文  </a>|
+	                	</span>
+	                	<span class="s-item">
+	                		<a > 拉杆箱 </a>
+	                	</span>
+	                </div>
+				</div>
+				<div class="header-serve">
+					<a >
+		                <img src="img/myimg/fuw_03.jpg" alt="">
+		            </a>
+		            <a >
+		                <img src="img/myimg/fuw_04.jpg" alt="">
+		            </a>
+		            <a >
+		                <img src="img/myimg/fuw_05.jpg" alt="">
+		            </a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="g-menu">
+			<div class="g-menu-wrap">
+				<div class="all-catalog">
+					<a  class="all-btn"">
+						全部商品分类
+						<i class="arrow"></i>
+					</a>
+					<div class="catalog-list" style="display: none;">
+						
+						<div id="cata-group-1" class="cata-group">
+							<dl class="cata-group-btn">
+								<dt class="cata-group-head">
+									<h3 class="group-title">
+										<i class="i_1"></i>
+										<a >潮流女包</a>
+										<a >/真皮女包</a>
+									</h3>
+									<i class="more-ico"></i>
+								</dt>
+								<dd class="cata-hot-link">
+									<div class="cata-hot-item">
+										<div class="cata-hot-words">
+											<a >手提包</a>
+											<a >单肩包</a>
+											<a >斜挎包</a>
+											<a >钱包手包</a>
+											<a >真皮包</a>
+											<a >双肩包</a>
+											<a ><font color="#d41c4f">结婚季</font></a>
+										</div>
+									</div>
+								</dd>
+							</dl>
+							
+							<div class="cata-sub"><!--二级菜单右侧-->
+								<div class="cata-sub-list">
+									<div class="dl-cata-brand">
+										<dl>
+											<dt>
+		                                        <span class="dt-title">品牌</span>
+		                                        <a  class="more">更多女包品牌&gt;&gt;</a>
+		                                    </dt>
+											<dd>
+												<div class="cate-brand-list">
+													
+													<ul>
+														<li>
+															<a  class="logo-item">
+		                                                        <p class="logo-img">
+		                                                            <img src="img/json_img/dudu.jpg" alt="">
+		                                                        </p>
+		                                                        <p class="logo-name">DUDU</p>
+		                                                    </a>
+														</li>
+														<li>
+															<a  class="logo-item">
+		                                                        <p class="logo-img">
+		                                                            <img src="img/json_img/mplus.jpg" alt="">
+		                                                        </p>
+		                                                        <p class="logo-name">M plus</p>
+		                                                    </a>
+														</li>
+														<li>
+															<a  class="logo-item">
+		                                                        <p class="logo-img">
+		                                                            <img src="img/json_img/lm.jpg" alt="">
+		                                                        </p>
+		                                                        <p class="logo-name">浪美</p>
+		                                                    </a>
+														</li>
+														<li>
+															<a  class="logo-item">
+		                                                        <p class="logo-img">
+		                                                            <img src="img/json_img/af.jpg" alt="">
+		                                                        </p>
+		                                                        <p class="logo-name">阿尔法</p>
+		                                                    </a>
+														</li>
+														<li>
+															<a  class="logo-item">
+		                                                        <p class="logo-img">
+		                                                            <img src="img/json_img/laorentou.jpg" alt="">
+		                                                        </p>
+		                                                        <p class="logo-name">老人头</p>
+		                                                    </a>
+														</li>
+														<li>
+															<a  class="logo-item">
+		                                                        <p class="logo-img">
+		                                                            <img src="img/json_img/foxer.jpg" alt="">
+		                                                        </p>
+		                                                        <p class="logo-name">金狐狸</p>
+		                                                    </a>
+														</li>
+													</ul>
+													
+												</div>
+											</dd>
+										</dl>
+									</div>
+									
+									
+									<div class="dl-cata-words">
+										<dl>
+											<dt>热门推荐：</dt>
+											<dd>
+												<a >贝壳包</a>
+												<a >小方包 </a>
+												<a >链条包</a>
+												<a >水桶包</a>
+												<a >托特包</a>
+												<a >小猪包</a>
+												<a >格纹包</a>
+												<a >菱格包</a>
+											</dd>           
+										</dl>
+										<dl>
+											<dt>按价格：</dt>
+											<dd>
+												<a >199以下</a>
+												<a >200-299</a>
+												<a >300-599</a>
+												<a >600-999</a>
+												<a >1000以上</a>
+												<a ></a>
+												<a ></a>
+												<a ></a>
+											</dd>           
+										</dl> 
+										<dl>
+											<dt>按主材质：</dt>
+											<dd>
+												<a >真皮    </a>
+												<a >合成革   </a>
+												<a >二层牛皮  </a>
+												<a >羊皮    </a>
+												<a >尼龙    </a>
+												<a >帆布    </a>
+												<a ></a>
+												<a ></a>
+											</dd>           
+										</dl> 
+										<dl>
+											<dt>按颜色：</dt>
+											<dd>
+												<a >黑色</a>
+												<a >粉红</a>
+												<a >杏色</a>
+												<a >蓝色</a>
+												<a >白色</a>
+												<a >红色</a>
+												<a >橘色</a>
+											</dd>           
+										</dl>
+										<dl>
+											<dt>按尺码：</dt>
+											<dd>
+												<a >迷你包（可放手机）</a>
+												<a >小包（可放iPad mini）</a>
+												<a >中包（可放iPad）</a>
+												<a >大包（可放A4纸）</a>
+												<a >超大容量</a>
+											</dd>           
+										</dl> 
+									</div>                  
+								</div>                         
+							</div>                          
+						</div>
+						
+						<div id="cata-group-2" class="cata-group">
+							<dl class="cata-group-btn">
+								<dt class="cata-group-head">
+									<h3 class="group-title">
+										<i class="i_2"></i>
+										<a >绅士男包</a>
+									</h3>
+									<i class="more-ico"></i>
+								</dt>
+								<dd class="cata-hot-link">
+									<div class="cata-hot-item">
+										<div class="cata-hot-words">
+											<a >真皮包</a>
+											<a >单肩包 </a>
+											<a >双肩包 </a>
+											<a >手提包</a>
+											<a >斜挎包</a>
+											<a >钱包/手包</a>
+											<a >胸包</a>
+										</div>
+									</div>
+								</dd>
+							</dl>
+							<div class="cata-sub">
+								<a >
+									<img src="img/myimg/list2.png"/>
+								</a>
+								
+							</div>
+						</div>
+						<div id="cata-group-3" class="cata-group">
+							<dl class="cata-group-btn">
+								<dt class="cata-group-head">
+									<h3 class="group-title">
+										<i class="i_3"></i>
+										<a >运动</a>
+										<a >/旅行</a>
+									</h3>
+									<i class="more-ico"></i>
+								</dt>
+								<dd class="cata-hot-link">
+									<div class="cata-hot-item">
+										<div class="cata-hot-words">
+											<a >双肩包    </a>
+											<a >拉杆箱    </a>
+											<a >户外功能包  </a>
+											<a >休闲包</a>
+										</div>
+									</div>
+								</dd>
+							</dl>
+							<div class="cata-sub">
+								<a >
+									<img src="img/myimg/list3.png"/>
+								</a>
+								
+							</div>
+						</div>
+						
+						<div id="cata-group-4" class="cata-group">
+							<dl class="cata-group-btn">
+								<dt class="cata-group-head">
+									<h3 class="group-title">
+										<i class="i_4"></i>
+										<a > 国 际 奢 品</a>
+									</h3>
+									<i class="more-ico"></i>
+								</dt>
+								<dd class="cata-hot-link">
+									<div class="cata-hot-item">
+										<div class="cata-hot-words">
+											<a >COACH</a>
+											<a >ARMANI JEANS</a>
+										</div>
+									</div>
+								</dd>
+							</dl>
+							<div class="cata-sub">
+								<a >
+									<img src="img/myimg/list4.png"/>
+								</a>
+								
+							</div>
+						</div>
+						
+						<div id="cata-group-5" class="cata-group">
+							<dl class="cata-group-btn">
+								<dt class="cata-group-head">
+									<h3 class="group-title">
+										<i class="i_5"></i>
+										<a >其他箱包</a>
+									</h3>
+									<i class="more-ico"></i>
+								</dt>
+								<dd class="cata-hot-link">
+									<div class="cata-hot-item">
+										<div class="cata-hot-words">
+											<a >妈咪包</a>
+											<a >儿童包</a>
+											<a >书包</a>
+											<a >配件</a>
+										</div>
+									</div>
+								</dd>
+							</dl>
+							<div class="cata-sub">
+								<a >
+									<img src="img/myimg/list5.png"/>
+								</a>
+								
+							</div>
+						</div>
+						
+						<a class="cata-all-link" >查看更多包包>></a>
+						
+					</div>
+					
+				
+				</div>
+				
+				<div class="channel">
+					<ul>
+						<li><a >首页</a></li>
+						<li><a >新品</a></li>
+						<li><a >爆款</a></li>
+						<li><a >真皮</a></li>
+						<li><a >品牌</a></li>
+						<li><a >选包</a></li>
+					</ul>
+				</div>
+				<a  class="mobile-club">手机版</a>
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="container_wrap">
+				<div class="l_t">
+					<h3 class="t_txt">欢迎注册麦包包网站</h3>
+				</div>
+				<div class="l_c">
+					<form id="form_tel_register" class="base_form" name="form_register">
+						<table class="register_form" style="margin-left: auto; margin-right: auto;" border="0">
+							<tbody>
+								<tr>
+									<td class="r_l">手机号码：</td>
+									<td class="r_r">
+										<input type="text" id="js_tel_reg_username" class="r_input"  value="" />
+										<span class="post_error">
+											请填写以1开头的正确的11位手机号码数字并进行验证
+										</span>
+									</td>
+								</tr>
+								<tr>
+									<td class="r_l">设置密码：</td>
+									<td class="r_r">
+										<input type="text" id="js_tel_reg_password" class="r_input"  value="" />
+										<span class="post_error">
+											请填写6-20位密码,可以使用字母和数字组合
+										</span>
+									</td>
+								</tr>
+								<tr>
+									<td class="r_l">确认密码：</td>
+									<td class="r_r">
+										<input type="text" id="js_tel_reg_password_confirm" class="r_input"  value="" />
+										<span class="post_error">
+											请填写6-20位密码,可以使用字母和数字组合
+										</span>
+									</td>
+								</tr>
+								<tr>
+									<td class="r_l">验证码：</td>
+									<td class="r_r" style="position: relative; display: block !important;">
+										<a id="js_sms_verifycode" class="gree-link">
+											免费获取短信验证码
+											<i class="arrow"></i>
+										</a>
+										<input type="text" id="js_tel_verifycode" class="r_input validcode"  value="" />
+										<span class="post_error">
+											请填写短信验证码
+										</span>
+									</td>
+								</tr>
+								<tr>
+									<td class="r_l"></td>
+									<td class="r_r">
+										<a id="btn_submit" class="red-btn" >提交注册</a>
+									</td>
+								</tr>
+								<tr>
+									<td class="r_l"></td>
+									<td class="r_r checkbox">
+										<input class="r_checkbox" checked="" type="checkbox" name="" id="" value="" />
+										我已阅读并同意
+										<a>
+											<span style="color: #d41c4f;">
+												《麦包包用户服务协议》
+											</span>
+										</a>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</form>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+</html>

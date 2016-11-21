@@ -1,0 +1,116 @@
+[
+	{
+		"url" : "img/floor_img/1.jpg",
+		"a_text":"[阿尔法·阿蒂斯特]新优雅系列手提",
+		"title":"[阿尔法·阿蒂斯特]新优雅系列手提",
+		"price":"￥398",
+		"before_price":"￥788"
+	},
+	{
+		"url" : " img/floor_img/2.jpg",
+		"a_text":"[DUDU]优雅魅惑系列手提斜挎包...",
+		"title":"[DUDU]优雅魅惑系列手提斜挎包 大款",
+		"price":"￥249",
+		"before_price":"￥488"
+	},
+	{
+		"url" : " img/floor_img/3.jpg",
+		"a_text":"[DUDU]优雅新作系列单肩包（大款）",
+		"title":"[DUDU]优雅新作系列单肩包（大款）",
+		"price":"￥398",
+		"before_price":"￥788"
+	},
+	{
+		"url" : " img/floor_img/4.jpg",
+		"a_text":"[DUDU]名“媛”系列手提包",
+		"title":"[DUDU]名“媛”系列手提包",
+		"price":"￥268",
+		"before_price":"￥528"
+	},
+	{
+		"url" : " img/floor_img/5.jpg",
+		"a_text":"[DUDU]鳞甲骑士系列菱格单肩包 ",
+		"title":"[DUDU]鳞甲骑士系列菱格单肩包 ",
+		"price":"￥189",
+		"before_price":"￥368"
+	},
+	{
+		"url" : " img/floor_img/6.jpg",
+		"a_text":"[DUDU]摩登达人系列鳄鱼纹头层牛皮...",
+		"title":"[DUDU]摩登达人系列鳄鱼纹头层牛皮单肩包",
+		"price":"￥229",
+		"before_price":"￥448"
+	}
+	,
+	{
+		"url" : " img/floor_img/7.jpg",
+		"a_text":"[金狐狸]潮流真皮手提斜挎包时尚大包",
+		"title":"[金狐狸]潮流真皮手提斜挎包时尚大包",
+		"price":"￥368",
+		"before_price":"￥728"
+	}
+	,
+	{
+		"url" : " img/floor_img/8.jpg",
+		"a_text":"[老人头]英伦时尚头层牛皮撞色手提...",
+		"title":"[老人头]英伦时尚头层牛皮撞色手提单肩包",
+		"price":"￥299",
+		"before_price":"￥588"
+	}
+	,
+	{
+		"url" : " img/floor_img/9.jpg",
+		"a_text":"[COPIONE]科皮妮喵星人系列多用包",
+		"title":"[COPIONE]科皮妮喵星人系列多用包",
+		"price":"￥269",
+		"before_price":"￥528"
+	}
+	,
+	{
+		"url" : " img/floor_img/10.jpg",
+		"a_text":"[阿尔法·阿蒂斯特]曼恩系列手提包",
+		"title":"[阿尔法·阿蒂斯特]曼恩系列手提包",
+		"price":"￥199",
+		"before_price":"￥388"
+	}
+	,
+	{
+		"url" : " img/floor_img/11.jpg",
+		"a_text":"[阿尔法·阿蒂斯特]曼恩系列钱包",
+		"title":"[阿尔法·阿蒂斯特]曼恩系列钱包",
+		"price":"￥398",
+		"before_price":"￥788"
+	}
+	,
+	{
+		"url" : " img/floor_img/12.jpg",
+		"a_text":"[DUDU]帕尔马系列单肩斜挎包",
+		"title":"[DUDU]帕尔马系列单肩斜挎包",
+		"price":"￥199",
+		"before_price":"￥798"
+	}
+	,
+	{
+		"url" : " img/floor_img/13.jpg",
+		"a_text":"[阿尔法·阿蒂斯特]轻优雅系列手提...",
+		"title":"[阿尔法·阿蒂斯特]轻优雅系列手提单肩包",
+		"price":"￥128",
+		"before_price":"￥248"
+	}
+	,
+	{
+		"url" : " img/floor_img/14.jpg",
+		"a_text":"[DUDU]质感旅人手提双肩背包 ",
+		"title":"[DUDU]质感旅人手提双肩背包 ",
+		"price":"￥148",
+		"before_price":"￥288"
+	}
+	,
+	{
+		"url" : " img/floor_img/15.jpg",
+		"a_text":"[阿尔法·阿蒂斯特]特轻空格系列手提单肩...",
+		"title":"[阿尔法·阿蒂斯特]特轻空格系列手提单肩斜挎包",
+		"price":"￥129",
+		"before_price":"￥248"
+	}
+]

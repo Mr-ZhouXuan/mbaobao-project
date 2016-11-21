@@ -1,0 +1,116 @@
+[
+	{
+		"url" : "img/floor_img2/1.jpg",
+		"a_text":"[浪美]水手系列斜挎包",
+		"title":"[浪美]水手系列斜挎包",
+		"price":"￥169",
+		"before_price":"￥328"
+	},
+	{
+		"url" : " img/floor_img2/2.jpg",
+		"a_text":"[麦包包(M Plus)]萌霸星际系列钱包",
+		"title":"[麦包包(M Plus)]萌霸星际系列钱包",
+		"price":"￥129",
+		"before_price":"￥248"
+	},
+	{
+		"url" : " img/floor_img2/3.jpg",
+		"a_text":"[MYIOO]记忆旅程系列双肩包",
+		"title":"[MYIOO]记忆旅程系列双肩包",
+		"price":"￥299",
+		"before_price":"￥499"
+	},
+	{
+		"url" : " img/floor_img2/4.jpg",
+		"a_text":"[MYIOO]轨迹系列手提单肩斜挎包",
+		"title":"[MYIOO]轨迹系列手提单肩斜挎包",
+		"price":"￥239",
+		"before_price":"￥399"
+	},
+	{
+		"url" : " img/floor_img2/5.jpg",
+		"a_text":"[麦包包(M Plus)]挚爱牛皮系列钱包",
+		"title":"[麦包包(M Plus)]挚爱牛皮系列钱包",
+		"price":"￥139",
+		"before_price":"￥228"
+	},
+	{
+		"url" : " img/floor_img2/6.jpg",
+		"a_text":"【麦包包(M Plus)】萌趣猫咪系列手提双肩背包 ",
+		"title":"【麦包包(M Plus)】萌趣猫咪系列手提双肩背包 ",
+		"price":"￥99",
+		"before_price":"￥388"
+	}
+	,
+	{
+		"url" : " img/floor_img2/7.jpg",
+		"a_text":"[浪美]玩味桶包系列单肩斜挎包",
+		"title":"[浪美]玩味桶包系列单肩斜挎包",
+		"price":"￥159",
+		"before_price":"￥298"
+	}
+	,
+	{
+		"url" : " img/floor_img2/8.jpg",
+		"a_text":"[ISCOV]花漾年华系列單肩包",
+		"title":"[ISCOV]花漾年华系列單肩包",
+		"price":"￥549",
+		"before_price":"￥1098"
+	}
+	,
+	{
+		"url" : " img/floor_img2/9.jpg",
+		"a_text":"[ISCOV]福星高照系列单肩包",
+		"title":"[ISCOV]福星高照系列单肩包",
+		"price":"￥269",
+		"before_price":"￥498"
+	}
+	,
+	{
+		"url" : " img/floor_img2/10.jpg",
+		"a_text":"[麦包包(M Plus)]俏皮猫咪系列手提单肩斜挎包",
+		"title":"[麦包包(M Plus)]俏皮猫咪系列手提单肩斜挎包",
+		"price":"￥169",
+		"before_price":"￥328"
+	}
+	,
+	{
+		"url" : " img/floor_img2/11.jpg",
+		"a_text":"[麦包包(M Plus)]迷你摩登系列多用包",
+		"title":"[麦包包(M Plus)]迷你摩登系列多用包",
+		"price":"￥179",
+		"before_price":"￥348"
+	}
+	,
+	{
+		"url" : " img/floor_img2/12.jpg",
+		"a_text":"[麦包包(M Plus)]迷你系列手提单肩斜挎包",
+		"title":"[麦包包(M Plus)]迷你系列手提单肩斜挎包",
+		"price":"￥169",
+		"before_price":"￥328"
+	}
+	,
+	{
+		"url" : " img/floor_img2/13.jpg",
+		"a_text":"[浪美]文艺简约系列斜挎包",
+		"title":"[浪美]文艺简约系列斜挎包",
+		"price":"￥139",
+		"before_price":"￥268"
+	}
+	,
+	{
+		"url" : " img/floor_img2/14.jpg",
+		"a_text":"[麦包包(M Plus)]蕾丝精灵系列手提双肩背包",
+		"title":"[麦包包(M Plus)]蕾丝精灵系列手提双肩背包",
+		"price":"￥199",
+		"before_price":"￥388"
+	}
+	,
+	{
+		"url" : " img/floor_img2/15.jpg",
+		"a_text":"[浪美]明星笑脸系列手提斜挎包",
+		"title":"[浪美]明星笑脸系列手提斜挎包",
+		"price":"￥189",
+		"before_price":"￥368"
+	}
+]

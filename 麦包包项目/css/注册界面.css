@@ -1,0 +1,99 @@
+.container {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+.container_wrap {
+    background: #fff;
+    width: 960px;
+    margin: 0 auto;
+}
+.container_wrap .l_t {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+.container_wrap .l_t .t_txt {
+   text-align: left;
+    font-weight: 700;
+    color: #383838;
+    font-size: 14px;
+    text-indent: 15px;
+}
+.container_wrap .l_c {
+    padding: 40px 0;
+}
+.register_form {/*table表格*/
+    width: 570px;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+tr td.r_l {/*表格中第一行*/
+    font-size: 14px;
+    color: #4e4e4e;
+    width: 23%;
+    text-align: right;
+    padding: 0 15px 0 0;
+}
+.base_form .r_r {/*表格中输入框部分*/
+    padding: 8px 0;
+    text-align: left;
+}
+.base_form .r_input {
+    width: 222px;
+    height: 15px;
+    padding: 7px 0 8px 5px;
+    font-size: 14px;
+    color: #4e4e4e;
+    border: 1px solid #e1e1e1;
+}
+.post_error {
+	display:block;
+	float: right;
+    color: #87b93c;
+    width: 167px;
+    padding-top: 2px;
+}
+.gree-link, .red-link {
+    display: inline-block;
+    display: -moz-inline-stack;
+    height: 30px;
+    background-color: #f00;
+    text-align: center;
+    color: #fff;
+    padding: 0 15px;
+    line-height: 30px;
+}
+.gree-link .arrow, .red-link .arrow {
+    width: 5px;
+    height: 9px;
+    background: url(../img/xiaotubiao/5.png);
+    display: inline-block;
+    display: -moz-inline-stack;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+.gree-link {
+    background-color: #87b93c;
+    vertical-align: middle;
+}
+.base_form .validcode {
+    width: 80px;
+}
+
+.red-btn, .red-btn-c {
+    float: left;
+    width: 60px;
+    height: 30px;
+    color: #fff;
+    padding: 0 30px 0 18px;
+    line-height: 30px;
+    border: 0;
+    text-align: left;
+    vertical-align: middle;
+    cursor: pointer;
+    background: #f00 url(../img/xiaotubiao/5.png) no-repeat 75px center;
+}

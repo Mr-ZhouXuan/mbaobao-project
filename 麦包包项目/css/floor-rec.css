@@ -1,0 +1,598 @@
+.floor-rec{
+    width: 1190px;height: 240px;
+    text-align: left;
+	margin: 0 auto;
+	background: silver;
+	position: relative;
+	z-index: 100;
+}
+.floor-rec .hot-link{
+	margin-top: 10px;
+}
+.hot-link li {
+    float: left;
+    padding-left: 1px;
+    width: 395px;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+}
+
+.floor-1{
+    width: 1190px;
+    text-align: left;
+	margin: 0 auto;
+	position: relative;
+	z-index: 100;
+	margin-bottom: 50px;
+}
+
+.f-title {
+    height: 34px;
+    padding-bottom: 3px;
+}
+.f-title .name {
+    float: left;
+    width: 500px;
+    height: 34px;
+    line-height: 34px;
+}
+.f-title .name a{
+	display: block;
+	width: 100%;
+	height: 34px;
+	overflow: hidden;
+	background: url(../img/xiaotubiao/home_spirit.png) -260px 0 no-repeat;
+}
+.f-title a.more{
+    float: right;
+    font-family: '宋体';
+    color: #666;
+    line-height: 34px;
+}
+.f-title a.more:hover{
+	text-decoration: underline;
+}
+.f-side {
+    width: 229px;
+    border: 1px solid #e5e5e5;
+    position: absolute;
+    z-index: 10;
+    background-color: #fafafa;
+    height: 439px;
+}
+.checkin-brand {
+  	height: 439px;
+    border-bottom: 1px solid #e5e5e5;
+    position: relative;
+    overflow: hidden;
+}
+.checkin-brand .brand-img a {
+    display: block;
+}
+.checkin-brand .brand-img img {
+    width: 244px;
+    height: auto;
+}
+.f-show-wrap {
+    width: 952px;
+    padding-left: 238px;
+    height: 440px;
+    position: relative;
+}
+.show-body {
+    overflow: hidden;
+    height: 441px;
+}
+.swiper-container {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+#floor_slide1 .bxslider li{
+	float: left;
+	list-style:none;
+	position: relative;
+	width: 952px;
+}
+.bx-pager {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 30px;
+    z-index: 100;
+    text-align: center;
+    font-size: 0;
+}
+.bx-pager a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    font-size: 12px;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    text-decoration: none;
+    white-space: nowrap;
+    width: 116px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-family: '宋体';
+    margin-left: 1px;
+}
+.bx-pager a.hover{
+    opacity: .8;
+    filter: alpha(opacity=80);
+}
+.bx-pager a span.red{
+	color: red;
+    text-decoration: underline;
+}
+
+.mod-pro-list {
+	/*商品列表*/
+    overflow: hidden;
+    *position: relative;
+    margin-top: 10px;
+    border: 1px solid #e5e5e5;
+    border-left: none;
+    border-top: none;
+}
+.mod-pro-list ul {
+    width: 1200px;
+}
+.mod-pro-list ul li {
+    width: 237px;
+    float: left;
+    border: 1px solid #e5e5e5;
+    position: relative;
+    margin-right: -1px;
+    margin-bottom: -1px;
+    overflow: hidden;
+    text-align: center;
+}
+.mod-pro-list ul li.tmingdu{
+	opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+.mod-pro-list ul li .pic {
+    width: 174px;
+    height: 174px;
+    margin: 0 auto;
+    display: block;
+}
+.mod-pro-list ul li img{
+	cursor: pointer;
+}
+.mod-pro-list ul li  a {
+    display: block;
+    height: 18px;
+    width: 100%;
+    overflow: hidden;
+}
+.mod-pro-list ul li  a:hover{
+	color: #d41c4f;
+	text-decoration: underline;
+}
+.mod-pro-list ul li p{
+    padding-top: 5px;
+    font-weight: 700;
+    color: #333;
+    font-family: tahoma,verdana,arial,helvetica,sans-serif;
+}
+.mod-pro-list ul li p del{
+    font-weight: 400;
+    color: #666;
+    padding-left: 5px;
+}
+.floor-2{
+    width: 1190px;
+    text-align: left;
+	margin: 0 auto;
+	position: relative;
+	z-index: 100;
+	margin-bottom: 50px;
+}
+.floor-2 .f-title .name a{
+    background-position: -260px -34px;
+}
+#floor_slide2 .bxslider li{
+	float: left;
+	list-style:none;
+	position: relative;
+	width: 952px;
+}
+
+.floor-3{
+    width: 1190px;
+    text-align: left;
+	margin: 0 auto;
+	position: relative;
+	z-index: 100;
+	margin-bottom: 50px;
+}
+.floor-3 .f-title .name a{
+    background-position:  -260px -68px;
+}
+#floor_slide3 .bxslider li{
+	float: left;
+	list-style:none;
+	position: relative;
+	width: 952px;
+}
+
+
+.floor-4{
+    width: 1190px;
+    text-align: left;
+	margin: 0 auto;
+	position: relative;
+	z-index: 100;
+	margin-bottom: 50px;
+}
+.floor-4 .f-title .name a{
+    background-position:  -260px -102px;
+}
+#floor_slide4 .bxslider li{
+	float: left;
+	list-style:none;
+	position: relative;
+	width: 952px;
+}
+
+.floor-5{
+    width: 1190px;
+    text-align: left;
+	margin: 0 auto;
+	position: relative;
+	z-index: 100;
+	margin-bottom: 50px;
+}
+.floor-5 .f-title .name a{
+    background-position:  -260px -136px;
+}
+#floor_slide5 .bxslider li{
+	float: left;
+	list-style:none;
+	position: relative;
+	width: 952px;
+}
+
+
+.floor-6{
+    width: 1190px;
+    text-align: left;
+	margin: 0 auto;
+	position: relative;
+	z-index: 100;
+	margin-bottom: 50px;
+}
+.floor-6 .f-title .name a{
+    background-position: -260px -170px;
+}
+.floor-6 .mod-pro-list .off-tag {/*商品剩余百分比*/
+    width: 45px;
+    height: 50px;
+    background: url(../img/xiaotubiao/home_spirit.png) no-repeat -180px 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+    font-size: 28px;
+    text-align: left;
+    padding-left: 3px;
+    line-height: 34px;
+}
+.floor-6 .mod-pro-list li{
+	position: relative;
+	padding-bottom: 20px;
+}
+.floor-6 .mod-pro-list li .pic-code {/*覆盖效果*/
+    width: 237px;
+    height: 247px;
+    position: absolute;
+    top: 0px;
+    bottom: -2px;
+    display: none;
+    /*display: block;*/
+    z-index: 999;
+    background-color: #ca234f;
+    color: #fff;
+}
+
+.pic-code p:first-child {
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 微软雅黑, Tahoma, Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+.pic-code p:last-child {
+    color: #e3aab1;
+    text-align: center;
+    padding: 2px;
+}
+.pic-code img{
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+}
+
+/*楼层底层*/
+.floor-brand {
+    width: 1189px;
+    margin: 45px auto 0 auto;
+    padding-top: 50px;
+}
+.floor-brand .f-title {
+    text-align: left;
+    font-size: 24px;
+    font-weight: 900;
+    height: 34px;
+	padding-bottom: 3px;
+	color: black;
+}
+.floor-brand ul {
+    border-top: solid 1px #e5e5e5;
+    border-left: solid 1px #e5e5e5;
+    display: block;
+    overflow: hidden;
+}
+.floor-brand li {
+    height: 197px;
+    width: 197px;
+    float: left;
+    border-right: solid 1px #e5e5e5;
+    border-bottom: solid 1px #e5e5e5;
+}
+.floor-brand li a {
+    display: block;
+}
+.floor-brand li a img {
+    display: block;
+}
+
+/*底部二维码区域到最下面*/
+.footer-wrapper {
+	min-width: 1200px;
+    margin-top: 20px;
+}
+.footer-wrapper .subscribe {/*二维码+红色区域*/
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 45px;
+}
+.subscribe .sub-wrap {/*二维码区域*/
+    height: 120px;
+    margin: 0 auto;
+}
+.subscribe .code-sub {/*二维码区域左侧*/
+    width: 385px;
+    height: 120px;
+    float: left;
+    background: url(../img/myimg/code.png.jpg) no-repeat center top;
+}
+.subscribe .follow-us {/*二维码区域右侧*/
+    width: 280px;
+    padding: 45px 0 40px 40px;
+    float: right;
+	border-left: 1px solid #dedede;
+}
+.subscribe .follow-us h3{
+    width: 86px;
+    height: 16px;
+    float: left;
+    margin: 6px 20px 12px 0;
+    background: url(../img/xiaotubiao/H_top_v2.png) -4px -68px no-repeat;
+}
+.subscribe .follow-us a {
+    display: block;
+    float: left;
+    width: 33px;
+    height: 27px;
+    margin-right: 12px;
+    padding-right: 5px;
+    position: relative;
+}
+.subscribe .follow-us .f-weixin{
+    border-right: 1px solid #e3e3e3;
+    background: url(../img/xiaotubiao/H_top_v2.png)  0 -87px no-repeat;
+}
+.subscribe .follow-us .f-weixin:hover .mbb-weixin{
+	visibility: initial;
+}
+.subscribe .follow-us .f-weixin .mbb-weixin {
+    width: 249px;
+    height: 294px;
+    position: relative;
+    top: -297px;
+    left: -114px;
+    z-index: 100;
+    display: block;
+    visibility: hidden;
+    text-align: right;
+}
+.subscribe .follow-us .f-weibo-t{
+	border-right: 1px solid #e3e3e3;
+    background: url(../img/xiaotubiao/H_top_v2.png)  -38px -87px no-repeat;
+}
+.subscribe .follow-us .f-weibo{
+	border-right: none;
+    background: url(../img/xiaotubiao/H_top_v2.png)  -77px -87px no-repeat;
+}
+
+.subscribe .bottom-ico {/*底部红色区域*/
+    height: 43px;
+    margin-top: 20px;
+    overflow: hidden;
+    clear: both;
+    background: #e61e56;
+    padding-top: 15px;
+}
+.subscribe .serve-ico li {
+    width: 239px;
+    float: left;
+	text-align: center;
+	border-right: 1px solid #ec6088;
+}
+.subscribe .serve-ico li a{
+    display: inline-block;
+    height: 25px;
+    text-indent: -9999px;
+    background: url(../img/xiaotubiao/H_top_v2.png) no-repeat;
+}
+.subscribe .serve-ico .ico-1 {
+    width: 76px;
+    background-position: 0 -234px;
+}
+.subscribe .serve-ico .ico-2 {
+    width: 111px;
+	background-position: -122px -260px;
+}
+.subscribe .serve-ico .ico-3 {
+    width: 165px;
+	background-position: -85px -234px;
+}
+.subscribe .serve-ico .ico-4 {
+    width: 118px;
+	background-position: 0 -260px;
+}
+.subscribe .serve-ico .ico-5 {
+    width: 93px;
+	background-position: -157px -208px;
+}
+
+
+/*最底部部分*/
+.footer {
+    border-top: 1px solid #ddd;
+    margin-top: 30px;
+    padding-top: 25px;
+}
+.footer .footer-menu {
+    width: 1150px;
+    margin: 0 auto;
+}
+.footer .footer-menu dl {
+    margin-right: 20px;
+    float: left;
+    padding-right: 50px;
+    border-right: 1px solid #dedede;
+	height: 93px;
+	line-height: 200%;
+	text-align: left;
+}
+.footer .footer-menu dt a {
+	color: #000000;
+	font-weight: 600;
+    padding-left: 16px;
+}
+.footer .footer-menu dt a:hover{
+	color: #d41c4f;
+	text-decoration: underline;
+}
+.footer .footer-menu dd a {
+    padding-left: 16px;
+    color: #999;
+}
+.footer .footer-menu dd a:hover{
+	color: #d41c4f;
+	text-decoration: underline;
+}
+.footer .footer-menu .tel-us {
+	background: url(../img/xiaotubiao/H_top_v2.png) -4px -113px no-repeat;
+	float: left;
+	width: 165px;
+	height: 93px;
+	position: relative;
+    margin-left: 30px;
+}
+.footer .tel-us .online-link {
+    width: 134px;
+    height: 35px;
+    display: block;
+    text-align: left;
+    text-indent: 55px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 35px;
+    position: absolute;
+    bottom: 0;
+    font-size: 14px;
+}
+
+.footer .copyright {/*底部经营许可证文字*/
+    text-align: center;
+    color: #999;
+    width: 100%;
+    height: 34px;
+    margin-top: 135px;
+    padding-top: 15px;
+    border-top: 1px solid #ebebeb;
+}
+a.gray{
+    color: #888;
+}
+.footer .copyright a:hover{
+	text-decoration: underline;
+}
+
+.footer .footer-honor {/*最底部部分 ul*/
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;
+}
+.footer .footer-honor a {
+    display: block;
+}
+.footer .footer-honor li {
+    display: inline-block;
+    padding: 0 10px;
+}
+.footer .footer-honor li.footer-link {
+    font-size: 12px;
+    line-height: 25px;
+    height: 60px;
+    vertical-align: middle;
+}
+.footer .footer-honor li.footer-link a {
+    color: #999;
+    padding-bottom: 10px;
+}
+.footer .footer-honor li.footer-link:hover{
+	text-decoration: underline;
+}
+.footer .footer-honor .ico-alipay {
+    width: 69px;
+    height: 33px;
+    background: url(../img/xiaotubiao/H_top_v2.png) -116px -82px no-repeat;
+}
+.footer .footer-honor .ico-cuw {
+    width: 40px;
+    height: 33px;
+    background: url(../img/xiaotubiao/H_top_v2.png) -159px -46px no-repeat;
+}
+.footer .footer-honor .ico-bus {
+    width: 49px;
+    height: 49px;
+    background: url(../img/xiaotubiao/H_top_v2.png) -106px -2px no-repeat;
+}
+.footer .footer-honor .ico-safe {
+    width: 38px;
+    height: 37px;
+    background: url(../img/xiaotubiao/H_top_v2.png) -63px -26px no-repeat;
+}
+.footer .footer-honor .ico-inte {
+    width: 49px;
+    height: 49px;
+    background: url(../img/xiaotubiao/H_top_v2.png) -2px -594px no-repeat;
+}
+.footer .footer-honor li.footer-link {
+    font-size: 12px;
+    line-height: 25px;
+    height: 60px;
+    vertical-align: middle;
+}
